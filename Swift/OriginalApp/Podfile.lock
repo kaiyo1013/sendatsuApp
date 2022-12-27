@@ -1,0 +1,61 @@
+PODS:
+  - IQKeyboardManagerSwift (6.3.0)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - NCMB (3.1.0)
+  - NYXImagesKit (2.3)
+  - PKHUD (5.3.0)
+  - RAMAnimatedTabBarController (5.2.0)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SwiftData (1.1.16)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - KRProgressHUD
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
+  - NYXImagesKit
+  - PKHUD
+  - RAMAnimatedTabBarController
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftData
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - NYXImagesKit
+    - PKHUD
+    - RAMAnimatedTabBarController
+    - SkyFloatingLabelTextField
+    - SwiftData
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  NCMB:
+    :branch: develop
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 262f556918acc06399ae896485fb3be4781846d8
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SwiftData: ef7ae3df5ae5f7ce839ab754c1e91266f1a1c825
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 16336306cb4d9a72337feb16ce17d4d11984f244
+
+COCOAPODS: 1.11.2
